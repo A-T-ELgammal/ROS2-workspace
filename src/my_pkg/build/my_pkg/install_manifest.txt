@@ -1,0 +1,15 @@
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/ament_index/resource_index/package_run_dependencies/my_pkg
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/ament_index/resource_index/parent_prefix_path/my_pkg
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/environment/ament_prefix_path.sh
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/environment/ament_prefix_path.dsv
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/environment/path.sh
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/environment/path.dsv
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/local_setup.bash
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/local_setup.sh
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/local_setup.zsh
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/local_setup.dsv
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/package.dsv
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/ament_index/resource_index/packages/my_pkg
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake
+/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/install/my_pkg/share/my_pkg/package.xml
