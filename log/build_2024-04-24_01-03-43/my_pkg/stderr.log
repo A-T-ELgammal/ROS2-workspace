@@ -1,0 +1,10 @@
+[01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:13:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+   13 |         rclcpp::sleep_for([01;31m[K<[m[Kstd::chrono::nanoseconds>(1000000000));
+      |                           [01;31m[K^[m[K
+[01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:13:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   13 |         rclcpp::sleep_for(<std::chrono::nanoseconds[01;31m[K>[m[K(1000000000));
+      |                                                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/welcome_node.dir/build.make:76: CMakeFiles/welcome_node.dir/src/simple_welcome_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/welcome_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
