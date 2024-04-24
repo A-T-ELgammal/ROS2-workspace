@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg -- -j16 -l16
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target welcome_node[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/welcome_node.dir/src/simple_welcome_node.cpp.o[0m
+[2.669s] [100%] [32m[1mLinking CXX executable welcome_node[0m
+[2.805s] [100%] Built target welcome_node
+[2.818s] Invoked command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg -- -j16 -l16
+[2.856s] Invoking command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg
+[2.865s] -- Install configuration: "RelWithDebInfo"
+[2.865s] -- Execute custom install script
+[2.866s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/lib/my_pkg/welcome_node
+[2.866s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/ament_index/resource_index/package_run_dependencies/my_pkg
+[2.866s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/ament_index/resource_index/parent_prefix_path/my_pkg
+[2.866s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/ament_prefix_path.sh
+[2.867s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/ament_prefix_path.dsv
+[2.867s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/path.sh
+[2.867s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/path.dsv
+[2.867s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.bash
+[2.867s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.sh
+[2.868s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.zsh
+[2.868s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.dsv
+[2.868s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/package.dsv
+[2.879s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/ament_index/resource_index/packages/my_pkg
+[2.879s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake
+[2.880s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake
+[2.880s] -- Up-to-date symlink: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/package.xml
+[2.882s] Invoked command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg

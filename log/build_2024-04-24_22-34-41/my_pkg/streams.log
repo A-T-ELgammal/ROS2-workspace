@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target welcome_node[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/welcome_node.dir/src/simple_welcome_node.cpp.o[0m
+[1.863s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.864s]                  from [01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:1[m[K:
+[1.864s] [01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:[m[K In constructor ‘[01m[KMyNode::[01;32m[KMyNode[m[K()[m[K’:
+[1.865s] [01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:16:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.865s]    16 |             RCLCPP_INFO(this->get_logger(), [01;31m[Kstream[m[K);
+[1.865s]       |                                             [01;31m[K^~~~~~[m[K
+[1.865s]       |                                             [01;31m[K|[m[K
+[1.865s]       |                                             [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.865s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K:
+[1.866s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[1.866s]   479 |   [01;36m[Kconst char * format[m[K,
+[1.866s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[2.259s] gmake[2]: *** [CMakeFiles/welcome_node.dir/build.make:76: CMakeFiles/welcome_node.dir/src/simple_welcome_node.cpp.o] Error 1
+[2.260s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/welcome_node.dir/all] Error 2
+[2.260s] gmake: *** [Makefile:146: all] Error 2
+[2.263s] Invoked command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg -- -j16 -l16

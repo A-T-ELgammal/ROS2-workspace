@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg -- -j16 -l16
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target welcome_node[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/welcome_node.dir/src/simple_welcome_node.cpp.o[0m
+[1.971s] [01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.971s] [01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:23:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.972s]    23 | int main([01;35m[Kint argc[m[K, char **argv)
+[1.972s]       |          [01;35m[K~~~~^~~~[m[K
+[1.972s] [01m[K/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/src/my_pkg/src/simple_welcome_node.cpp:23:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.972s]    23 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[1.972s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[2.518s] [100%] [32m[1mLinking CXX executable welcome_node[0m
+[2.644s] [100%] Built target welcome_node
+[2.658s] Invoked command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg -- -j16 -l16
+[2.698s] Invoking command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg
+[2.706s] -- Install configuration: "RelWithDebInfo"
+[2.706s] -- Execute custom install script
+[2.706s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/lib/my_pkg/welcome_node
+[2.716s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/ament_index/resource_index/package_run_dependencies/my_pkg
+[2.726s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/ament_index/resource_index/parent_prefix_path/my_pkg
+[2.736s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/ament_prefix_path.sh
+[2.747s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/ament_prefix_path.dsv
+[2.758s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/path.sh
+[2.768s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/environment/path.dsv
+[2.778s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.bash
+[2.788s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.sh
+[2.797s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.zsh
+[2.807s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/local_setup.dsv
+[2.817s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/package.dsv
+[2.827s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/ament_index/resource_index/packages/my_pkg
+[2.838s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake
+[2.847s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake
+[2.857s] -- Symlinking: /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/install/my_pkg/share/my_pkg/package.xml
+[2.869s] Invoked command in '/home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ahmed/projects/ROS2/workspace-project/ROS2-workspace/build/my_pkg
