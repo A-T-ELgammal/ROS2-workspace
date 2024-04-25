@@ -3,20 +3,34 @@
 class MyNode : public rclcpp::Node
 {
 public:
+    // using loop with
+    // MyNode() : Node("welcome_node")
+    // {
+    //     int counter = 0;
+    //     while (rclcpp::ok())
+    //     {
+    //         std::stringstream ss;
+    //         ss << "Hello World :: " << counter;
+    //         std::string message = ss.str();
+    //         RCLCPP_INFO(this->get_logger(), message.c_str());
+    //         //with sleep_for
+    //         rclcpp::sleep_for(std::chrono::seconds(1));
+
+    //         counter++;
+    //     }
+    // }
+    // using timer
     MyNode() : Node("welcome_node")
     {
-        int counter = 0;
-        while (rclcpp::ok())
-        {
-            std::stringstream ss;
-            ss << "Hello World :: " << counter;
-            // std::string result = ss.str();
-            std::string stream = ss.str();
-            // const char *message = stream.c_str();
-            RCLCPP_INFO(this->get_logger(), stream.c_str());
-            rclcpp::sleep_for(std::chrono::nanoseconds(1000000000));
-            counter++;
-        }
+        timer_ = this->create_wall_timer(std::chrono::seconds(1),
+                                         std::bind(&MyNode::timerCallBack, this));
+    }
+
+private:
+    rclcpp::TimerBase::SharedPtr timer_;
+    void timerCallBack()
+    {
+        RCLCPP_INFO(this->get_logger(), "Hello World");
     }
 };
 
