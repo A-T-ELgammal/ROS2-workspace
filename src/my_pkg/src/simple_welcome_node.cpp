@@ -30,8 +30,10 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     void timerCallBack()
     {
-        RCLCPP_INFO(this->get_logger(), "Hello World");
+        RCLCPP_INFO(this->get_logger(), "Hello World :%d", counter);
+        counter++;
     }
+    int counter = 0;
 };
 
 int main(int argc, char **argv)
